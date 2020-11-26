@@ -4,7 +4,7 @@ import requests, json
 # base URL
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 CITY = input("What city are you in? ")
-API_KEY = "8fc922e0abec194e8cc19417f3f50566"
+API_KEY = #put your API key here
 URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY + "&units=imperial"
 response = requests.get(URL)
 if response.status_code == 200:
