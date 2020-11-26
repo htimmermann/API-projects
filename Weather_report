@@ -1,0 +1,6 @@
+A program that oupts all current weather conditions (temperature (current, min, and max), humidity, pressure, visibility, and an overall report)
+
+REQUIREMENTS:
+- libraries: requests, json
+- an API key (can be obtained for free at Openweathermap.org)
+
